@@ -1,0 +1,301 @@
+@font-face {
+	src: url(fonts/Play-Regular.ttf);
+	font-family: playr;
+}
+body {
+	background-image: url(images/laptop_home.jpg);
+	background-size: cover;
+
+}
+
+
+.div1 {
+	position: absolute;
+	color: #221e1e;
+	font-size: 40px;
+	font-family: playr;
+	box-shadow: 0px 0px 30px
+				rgba(0, 0, 0, 0.5);
+	text-align: center;
+	border-radius: 3px;
+	width: 30%;
+	padding: 5px;
+	top: 190px;
+	left: 220px;
+}
+.div2{
+	font-family: playr;
+	font-size: 17px;
+	position: absolute;
+	top: 248px;
+	left: 330px;
+}
+.div1, .div2 {
+	transition-property: transform;
+	transition-duration: 500ms;
+
+}
+.div2:hover {
+	transform: scaleX(1.2) scaleY(1.2);
+}
+.div1:hover {
+	transform: scaleX(1.1) scaleY(1.1);
+}
+.s1 {
+	color: #4d1c6bbf;
+}
+.s2 {
+	color: #f30f0fcf;
+}
+.s3 {
+	color: #20504ccf;
+}
+/*.box1 {
+	height: 1px;
+	width: 1px;
+	background: red;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	animation-name: linemovinga;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 0.2s;
+
+}
+
+.box2 {
+	height: 1px;
+	width: 1px;
+	background: red;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	animation-name: linemovingb;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 0.2s;
+	animation-direction: reverse;	
+
+}
+@keyframes linemovinga {
+	0% {
+		height: 1px;
+		width: 1px;
+		top: 148px;
+		left: 249px;
+		background-color: red;
+	}
+	12.5% {
+		top: 148px;
+		height: 1px;
+		width: 25px;
+		background-color: green;
+
+	}
+	25% {
+		top: 148px;
+		left: 670px;
+		height: 1px;
+		width: 1px;
+		background-color: red;
+	}
+	37.5% {
+		left: 670px;
+		height: 20px;
+		width: 1px;
+		background-color: green;
+
+	}
+	50% {
+		left: 670px;
+		top: 206px;
+		height: 1px;
+		width: 1px;
+		background-color: red;
+		
+
+	}
+	62.5% {
+		top: 206px;
+		height: 1px;
+		width: 20px;
+		background-color: green;
+	}
+	75% {
+		top: 206px;
+		left: 249px;
+		height: 1px;
+		width: 1px;
+		background-color: red;
+	}
+	87.5% {
+		left: 249px;
+		height: 20px;
+		width: 1px;
+		background-color: green;
+	}
+	100% {
+		top: 150px;
+		left: 250px;
+		width: 1px;
+		height: 1px;
+		background-color: red;
+	}
+}
+
+@keyframes linemovingb {
+	0% {
+		height: 1px;
+		width: 1px;
+		top: 149px;
+		left: 249px;
+		background-color: red;
+	}
+	12.5% {
+		top: 149px;
+		height: 1px;
+		width: 25px;
+		background-color: yellow;
+
+	}
+	25% {
+		top: 149px;
+		left: 670px;
+		height: 1px;
+		width: 1px;
+		background-color: red;
+	}
+	37.5% {
+		left: 670px;
+		height: 20px;
+		width: 1px;
+		background-color: yellow;
+	}
+	50% {
+		left: 670px;
+		top: 205px;
+		height: 1px;
+		width: 1px;
+		background-color: red;
+		
+
+	}
+	62.5% {
+		top: 206px;
+		height: 1px;
+		width: 20px;
+		background-color: yellow;
+	}
+	75% {
+		top: 206px;
+		left: 249px;
+		height: 1px;
+		width: 1px;
+		background-color: red;
+	}
+	87.5% {
+		left: 249px;
+		height: 20px;
+		width: 1px;
+		background-color: yellow;
+	}
+	100% {
+		top: 150px;
+		left: 250px;
+		width: 1px;
+		height: 1px;
+		background-color: red;
+	}
+}
+
+/*.box1 {
+	width: 7px;
+	height: 7px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	left: 247px;
+	top: 148px;
+	animation-name: pointythinga;
+	animation-duration: 2.1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+	animation-delay: 0.2s;
+	animation-direction: reverse;
+}
+
+.box2 {
+	width: 7px;
+	height: 7px;
+	background: blue;
+	border-radius: 50%;
+	position: absolute;
+	left: 247px;
+	top: 148px;
+	animation-name: pointythingb;
+	animation-duration: 2.1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 0.2s;
+}
+*/
+
+/*@keyframes pointythinga {
+	0% {
+		top: 144px;
+		left: 243px;
+	}
+	25% {
+		top: 144px;
+		left: 670px;
+		background-color: green;
+	}
+	50% {
+		top: 206px;
+		left: 670px;
+	}
+	75% {
+		top: 206px;
+		left: 243px;
+	}
+	100% {
+		top: 144px;
+		left: 243px;
+	}
+
+
+}
+
+@keyframes pointythingb {
+	0% {
+		top: 144px;
+		left: 243px;
+	}
+	25% {
+		top: 144px;
+		left: 670px;
+		background-color: yellow;
+	}
+	50% {
+		top: 206px;
+		left: 670px;
+	}
+	75% {
+		top: 206px;
+		left: 243px;
+	}
+	100% {
+		top: 144px;
+		left: 243px;
+	}
+
+
+}
+*/

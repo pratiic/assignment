@@ -1,0 +1,40 @@
+@font-face{
+	src: url("fonts/Kalam-Regular.ttf");
+	font-family: cursive_new;
+}
+@font-face {
+	src: url(fonts/CutiveMono-Regular.ttf);
+	font-family: cutive;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-image: url("images/headphones.jpg");
+	background-size: cover;
+}
+.div1 {
+	position: relative;
+	top: 180px;
+	left: 300px;
+	width: 50%;
+	text-align: justify;
+	font-size: 23px;
+	padding: 10px;
+	font-family: cutive;
+	border-radius: 7px;
+	color: #060606f7;
+	text-shadow: 0px 0px 1px;
+	box-shadow: 0px 0px 45px
+				rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	background: #6d4ad812;
+	transition-property: transform;
+	transition-duration: 450ms;
+
+
+}
+.div1:hover {
+	transform: scale(1.1);
+}

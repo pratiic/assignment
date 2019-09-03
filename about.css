@@ -1,0 +1,75 @@
+@font-face {
+	src: url(fonts/PatrickHand-Regular.ttf);
+	font-family: patrick;
+}
+@font-face {
+	src: url(fonts/SquadaOne-Regular.ttf);
+	font-family: bold;
+}
+@font-face {
+	src: url(fonts/Play-Regular.ttf);
+	font-family: playr;
+}
+
+@font-face {
+	src: url(fonts/Exo2-Black.ttf);
+	font-family: exo;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-image: url("images/car.jpg");
+	background-size: cover;
+}
+.container {
+	display: grid;
+	grid-template-columns: 32% 32% 32%;	
+	position: absolute;
+	top: 140px;
+	grid-gap: 2%;
+	left: 20px;
+	right: 20px;
+	padding: 15px;
+}
+.div1, .div2, .div3 {
+	box-shadow: 0px 0px 25px
+				rgb(0, 0, 0, 0.5);
+	padding: 10px;
+	background: #e8bbbbb3;
+	border-radius: 7px;
+	text-shadow: 0px 0px 1px;
+	transition-property: transform;
+	transition-duration: 450ms;
+}
+
+.div1:hover {
+	transform: scale(1.1);
+}
+
+.div2:hover {
+	transform: scale(1.1);
+}
+
+.div3:hover {
+	transform: scale(1.1);
+}
+
+h2 {
+	font-family: exo;
+	font-size: 25px;
+	color: #533871;
+}
+
+p {
+	margin-top: 13px;
+	font-family: playr;
+	font-size: 18px;
+	letter-spacing: 1.3px;
+	color: #291422fa;
+	text-align: justify;
+}
+
+
